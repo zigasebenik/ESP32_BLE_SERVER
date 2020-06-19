@@ -1,0 +1,39 @@
+{
+    "description": "Mail Client Arduino Library for ESP32", 
+    "repository": {
+        "url": "https://github.com/mobizt/ESP32-Mail-Client", 
+        "type": "git"
+    }, 
+    "platforms": [
+        "espressif32"
+    ], 
+    "export": {
+        "exclude": [
+            "extras", 
+            "docs", 
+            "tests", 
+            "test", 
+            "*.doxyfile", 
+            "*.pdf"
+        ], 
+        "include": null
+    }, 
+    "authors": [
+        {
+            "maintainer": true, 
+            "name": "Mobizt", 
+            "url": null, 
+            "email": "k_suwatchai@hotmail.com.com"
+        }
+    ], 
+    "keywords": [
+        "communication"
+    ], 
+    "id": 6221, 
+    "name": "ESP32 Mail Client", 
+    "frameworks": [
+        "arduino"
+    ], 
+    "version": "2.1.4", 
+    "homepage": null
+}
